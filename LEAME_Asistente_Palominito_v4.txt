@@ -1,0 +1,42 @@
+ASISTENTE INSTITUCIONAL PALOMINITO - VERSIÓN 4.0 CONVERSACIONAL
+
+INICIO RÁPIDO
+1. Haga clic derecho sobre el archivo ZIP y seleccione "Extraer todo".
+2. Abra la carpeta extraída.
+3. Haga doble clic en Asistente_Palominito_v4_Conversacional.html.
+4. Espere a que aparezca el saludo del Asistente Institucional.
+5. Escriba una pregunta, salude o seleccione una de las rutas rápidas.
+
+NO REQUIERE
+- Instalación de programas.
+- Cuenta, usuario, PIN o contraseña.
+- Conexión a internet.
+- Servidor, Python, Node.js ni extensiones.
+
+NOVEDADES DE LA VERSIÓN 4.0
+- Saluda según la hora del computador: buenos días, buenas tardes o buenas noches.
+- Responde a expresiones como "hola", "¿cómo está?", "gracias" y "hasta luego".
+- Orienta cuando la persona escribe "no sé qué preguntar" o "necesito ayuda".
+- Ofrece rutas para estudiantes, padres o acudientes y docentes.
+- Incluye rutas temáticas para evaluación, convivencia, media técnica e información general.
+- Después de una respuesta verificada propone preguntas relacionadas.
+- Cuando no encuentra información, explica cómo reformular la consulta y ofrece opciones.
+- El botón Inicio limpia la conversación y vuelve a mostrar la orientación principal.
+
+IMPORTANTE
+- Extraiga el ZIP antes de abrir el HTML. No lo ejecute directamente dentro de WinRAR.
+- Se recomienda Microsoft Edge o Google Chrome.
+- La aplicación usa JavaScript ES5 para ampliar la compatibilidad con equipos no actualizados.
+- Las respuestas se basan únicamente en el PEI Palominito 2025 y el Manual de Convivencia 2026.
+- No sustituye decisiones de rectoría, coordinación, comités, comisiones ni orientación escolar.
+- No consulta notas, expedientes, datos médicos ni información personal de estudiantes.
+
+PRUEBAS SUGERIDAS
+- Escriba: hola, ¿cómo están?
+- Escriba: soy padre de familia
+- Escriba: no sé qué preguntar
+- Escriba: hola, ¿cuál es el teléfono del colegio?
+- Escriba: muchas gracias
+
+SOPORTE
+Dentro del asistente seleccione "Estado técnico" para consultar versión, navegador detectado, documentos y estadísticas de la base.

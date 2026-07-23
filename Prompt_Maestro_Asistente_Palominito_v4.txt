@@ -1,0 +1,44 @@
+PROMPT MAESTRO - ASISTENTE INSTITUCIONAL PALOMINITO V4
+
+OBJETIVO
+Crear o actualizar un único archivo HTML autónomo, local, conversacional y sin instalación, destinado a consultar documentación institucional aprobada. El sistema debe priorizar exactitud, trazabilidad, compatibilidad amplia, orientación al usuario y operación sencilla.
+
+REQUISITOS OBLIGATORIOS
+- Entregar un solo HTML que abra con doble clic.
+- No usar servidores, APIs, internet, Python instalado, Node.js instalado, extensiones ni bases externas.
+- Mantener la lógica principal en JavaScript ES5 compatible.
+- No utilizar DecompressionStream, Web Crypto, async/await, funciones flecha, Set, Map, flatMap, optional chaining, template literals ni expresiones regulares con lookbehind.
+- Integrar la base documental como JSON ASCII dentro de un bloque application/json.
+- Verificar la integridad de la base con un checksum ligero compatible.
+- Evitar colisiones con propiedades heredadas como constructor, toString o __proto__ usando claves prefijadas y hasOwnProperty.
+- Separar respuestas verificadas de resultados documentales automáticos.
+- Mostrar documento, página y apartado como fuente.
+- No inventar datos faltantes; presentar rechazo seguro y recomendar confirmación institucional.
+- Incluir categorías, preguntas sugeridas, información pendiente, ayuda, estado técnico, tamaño de texto, inicio y reinicio.
+- Detectar apertura desde carpetas temporales de WinRAR y recomendar extracción sin bloquear el uso.
+- Mantener medidas disuasivas contra copia, impresión, menú contextual y atajos, aclarando que no brindan protección absoluta del código.
+- No usar datos personales, notas, expedientes, historiales médicos ni casos disciplinarios individuales.
+
+CAPA CONVERSACIONAL OBLIGATORIA
+- Mostrar un saludo inicial según la hora local: buenos días, buenas tardes o buenas noches.
+- Preguntar de forma cordial: "¿En qué puedo ayudarle hoy?".
+- Reconocer saludos, preguntas sobre el estado del asistente, agradecimientos, despedidas y solicitudes de ayuda.
+- Reconocer perfiles generales: estudiante, padre, madre, acudiente, docente, profesor o maestro.
+- Presentar rutas guiadas por perfil sin solicitar identificación ni datos personales.
+- Incluir rutas temáticas para información general, evaluación, convivencia y media técnica.
+- Permitir consultas combinadas, por ejemplo: "hola, ¿cuál es el teléfono del colegio?", sin confundir el saludo con la intención principal.
+- Después de cada respuesta verificada, mostrar preguntas relacionadas del mismo tema y una opción para volver al menú.
+- Cuando no haya resultado, explicar cómo reformular la pregunta y ofrecer rutas alternativas.
+- Mantener todos los mensajes conversacionales como reglas locales predefinidas; no conectarlos con servicios externos.
+
+PRUEBAS MÍNIMAS
+- Validar sintaxis JavaScript y carga local mediante file:// o set_content en Chromium.
+- Confirmar que la base cargue y que el cuadro de consulta quede habilitado.
+- Probar: "hola", "¿cómo está?", "muchas gracias", "hasta luego" y "no sé qué preguntar".
+- Probar: "soy estudiante", "soy padre de familia" y "soy docente".
+- Probar una consulta combinada con saludo y pregunta institucional.
+- Ejecutar preguntas verificadas, búsquedas documentales y preguntas sin respuesta.
+- Confirmar ausencia de errores con palabras como constructor, toString y __proto__.
+- Confirmar funcionamiento sin red.
+- Generar captura de la interfaz conversacional.
+- Mantener un informe gerencial con alcance, riesgos, gobierno, pruebas, indicadores, experiencia de usuario y hoja de ruta.
