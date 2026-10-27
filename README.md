@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero-neon.svg" alt="Portada Palominito IA: verde menta, rosa y violeta" width="100%" />
+
 # 🏫 Asistente Institucional Palominito
 
 ### Versión 4.0 · Consulta y orientación conversacional
